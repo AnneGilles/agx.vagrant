@@ -1,7 +1,7 @@
 AGX Vagrant
 ===========
 
-This will setup an ubuntu lucid box and agx.
+This will setup an ubuntu precise box and agx.
 
 
 Prerequisites
@@ -11,9 +11,9 @@ Install vagrant and virtualbox
     sudo apt-get install vagrant
     sudo apt-get install virtualbox
 
-Have a base box ready to be used. Choose lucid32 (LTS)
+Have a base box ready to be used. Choose precise32 (LTS)
 ::
-    vagrant box add base http://files.vagrantup.com/lucid32.box
+    vagrant box add precise32 http://files.vagrantup.com/precise32.box
 
 
 Installation/Use
