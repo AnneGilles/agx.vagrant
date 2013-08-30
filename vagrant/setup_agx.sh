@@ -1,5 +1,8 @@
 #!/usr/bin/env sh
 
+sudo apt-get update
+sudo apt-get upgrade
+
 sudo apt-get install -y git-core
 sudo apt-get install -y python-virtualenv python-dev
 sudo apt-get install -y build-essential libxml2-dev
