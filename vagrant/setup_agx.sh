@@ -16,3 +16,5 @@ env/bin/python --version
 env/bin/python bootstrap.py -c dev.cfg
 bin/buildout -c dev.cfg
 ./test.sh
+
+sudo chown -R vagrant:vagrant .
